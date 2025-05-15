@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Jane Smith | Mathematician</title>
+    <title>Lina Maria Simbaqueba M. | Mathematician</title>
     <style>
         /* Simple, clean styling with burgundy color scheme */
         body {
@@ -49,7 +49,7 @@
         
         nav ul {
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
             list-style: none;
             margin: 0;
             padding: 0;
@@ -97,6 +97,7 @@
     <nav>
         <div class="container">
             <ul>
+                <li style="margin-right: auto; font-weight: bold;"><a href="#" style="color: white;">Lina M. Simbaqueba</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#research">Research</a></li>
                 <li><a href="#publications">Publications</a></li>
@@ -109,8 +110,8 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <h1>Dr. Jane Smith</h1>
-            <p>Associate Professor of Mathematics</p>
+            <h1 style="color: white; margin-bottom: 10px;">Lina Maria Simbaqueba M.</h1>
+            <p style="color: white; font-size: 1.2rem;">Department of Mathematics and Statistics, University of Victoria</p>
         </div>
     </header>
 
@@ -118,8 +119,16 @@
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I am an Associate Professor of Mathematics at University of Mathematics, specializing in algebraic topology and geometric analysis. My research explores the intersection of pure mathematics with applications in data science and machine learning.</p>
-            <p>I received my Ph.D. from Stanford University in 2015 and have since published over 20 papers in leading mathematical journals. I currently lead the Geometric Analysis Research Group and teach graduate-level courses in advanced topology and differential geometry.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+                <div style="flex: 1; min-width: 300px;">
+                    <p>I am a Mathematics graduate student at the University of Victoria, specializing in combinatorics. My research focuses on pattern avoidance, skew Dyck paths, and Sidorenko-type inequalities.</p>
+                    <p>I received my B.S. in Mathematics from Universidad Nacional de Colombia in 2022 and am currently pursuing my M.S. at the University of Victoria. I also work as a Teaching Assistant while continuing my research.</p>
+                </div>
+                <div style="flex: 1; min-width: 300px; text-align: center;">
+                    <img src="lina.jpg" alt="Mathematician hiking on a mountain viewpoint" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <p style="font-style: italic; margin-top: 10px; font-size: 0.9em;">Enjoying the outdoors when not working on mathematical problems</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -129,16 +138,16 @@
             <h2>Research Interests</h2>
             <ul>
                 <li>
-                    <h3>Algebraic Topology</h3>
-                    <p>Focusing on persistent homology and applications to data analysis.</p>
+                    <h3>Combinatorial Pattern Theory</h3>
+                    <p>Focusing on consecutive pattern-avoidance in Catalan words.</p>
                 </li>
                 <li>
-                    <h3>Geometric Analysis</h3>
-                    <p>Working on problems related to curvature flows and minimal surfaces.</p>
+                    <h3>Skew Dyck Paths</h3>
+                    <p>Exploring equivalence classes and counting prefixes of skew Dyck paths.</p>
                 </li>
                 <li>
-                    <h3>Mathematical Physics</h3>
-                    <p>Exploring connections between gauge theory and low-dimensional topology.</p>
+                    <h3>Graph Theory</h3>
+                    <p>Working on Sidorenko-type inequalities for pairs of trees.</p>
                 </li>
             </ul>
         </div>
@@ -150,19 +159,24 @@
             <h2>Selected Publications</h2>
             <div class="publications-list">
                 <div class="publication-item">
-                    <p><strong>Persistent Homology and Its Applications to Machine Learning</strong></p>
-                    <p>Smith, J., Johnson, A., & Lee, M. (2023)</p>
-                    <p>Journal of Mathematical Analysis, 45(2), 112-134</p>
+                    <p><strong>Consecutive pattern-avoidance in Catalan words according to the last symbol</strong></p>
+                    <p>J.-L. Baril, D. Colmenares, J.L Ramirez, D. Silva, L.M. Simbaqueba, D. Toquica (2024)</p>
+                    <p>Accepted in RAIRO</p>
                 </div>
                 <div class="publication-item">
-                    <p><strong>On the Convergence of Ricci Flow with Discontinuous Initial Metrics</strong></p>
-                    <p>Smith, J. & Wong, R. (2022)</p>
-                    <p>Advances in Pure Mathematics, 32(3), 275-291</p>
+                    <p><strong>Sidorenko-Type Inequalities for Pairs of Trees</strong></p>
+                    <p>B. Natalie, C. Gabriel, J. Noel, L. M. Simbaqueba (2023)</p>
+                    <p>Submitted</p>
                 </div>
                 <div class="publication-item">
-                    <p><strong>Topological Data Analysis: Theory and Applications</strong></p>
-                    <p>Smith, J. (2021)</p>
-                    <p>Computational Mathematics Quarterly, 18(1), 42-59</p>
+                    <p><strong>Equivalence classes of skew Dyck paths Modulo some patterns</strong></p>
+                    <p>J.-L. Baril, J.-L. Ramirez, L.-M. Simbaqueba (2022)</p>
+                    <p>Accepted in Integers: Electronic Journal of Combinatorial Number Theory</p>
+                </div>
+                <div class="publication-item">
+                    <p><strong>Counting prefixes of skew Dyck paths</strong></p>
+                    <p>J.-L. Baril, J.-L. Ramirez, L.-M. Simbaqueba (2021)</p>
+                    <p>Journal of Integer Sequences, Vol. 24, Article 21.8.2</p>
                 </div>
             </div>
         </div>
@@ -181,21 +195,16 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Information</h2>
-            <p>Email: jane.smith@university.edu</p>
-            <p>Office: Mathematics Building, Room 302</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>
-                <a href="https://scholar.google.com" target="_blank">Google Scholar</a> |
-                <a href="https://researchgate.net" target="_blank">ResearchGate</a> |
-                <a href="https://mathscinet.ams.org" target="_blank">MathSciNet</a>
-            </p>
+            <p>Email: lmsimbaquebam@uvic.ca</p>
+            <p>Phone: 6723387441</p>
+            <p>Department of Mathematics and Statistics, University of Victoria</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer style="background-color: #800020; color: white; text-align: center; padding: 20px 0; margin-top: 30px;">
         <div class="container">
-            <p>&copy; 2025 Dr. Jane Smith. All rights reserved.</p>
+            <p>&copy; 2025 Lina Maria Simbaqueba M. All rights reserved.</p>
         </div>
     </footer>
 
