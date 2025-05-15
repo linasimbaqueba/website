@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Jane Smith | Mathematician</title>
+    <style>
+        /* Simple, clean styling with burgundy color scheme */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: #800020;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        h1, h2, h3 {
+            margin-bottom: 20px;
+            color: #800020;
+        }
+        
+        section {
+            padding: 30px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        nav {
+            background-color: #800020;
+            color: white;
+            position: sticky;
+            top: 0;
+            padding: 10px 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .publication-item {
+            margin-bottom: 20px;
+        }
+        
+        .download-cv {
+            display: inline-block;
+            background-color: #800020;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        
+        footer {
+            background-color: #1a3c5a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Dr. Jane Smith</h1>
+            <p>Associate Professor of Mathematics</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am an Associate Professor of Mathematics at University of Mathematics, specializing in algebraic topology and geometric analysis. My research explores the intersection of pure mathematics with applications in data science and machine learning.</p>
+            <p>I received my Ph.D. from Stanford University in 2015 and have since published over 20 papers in leading mathematical journals. I currently lead the Geometric Analysis Research Group and teach graduate-level courses in advanced topology and differential geometry.</p>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section id="research">
+        <div class="container">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>
+                    <h3>Algebraic Topology</h3>
+                    <p>Focusing on persistent homology and applications to data analysis.</p>
+                </li>
+                <li>
+                    <h3>Geometric Analysis</h3>
+                    <p>Working on problems related to curvature flows and minimal surfaces.</p>
+                </li>
+                <li>
+                    <h3>Mathematical Physics</h3>
+                    <p>Exploring connections between gauge theory and low-dimensional topology.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+        <div class="container">
+            <h2>Selected Publications</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <p><strong>Persistent Homology and Its Applications to Machine Learning</strong></p>
+                    <p>Smith, J., Johnson, A., & Lee, M. (2023)</p>
+                    <p>Journal of Mathematical Analysis, 45(2), 112-134</p>
+                </div>
+                <div class="publication-item">
+                    <p><strong>On the Convergence of Ricci Flow with Discontinuous Initial Metrics</strong></p>
+                    <p>Smith, J. & Wong, R. (2022)</p>
+                    <p>Advances in Pure Mathematics, 32(3), 275-291</p>
+                </div>
+                <div class="publication-item">
+                    <p><strong>Topological Data Analysis: Theory and Applications</strong></p>
+                    <p>Smith, J. (2021)</p>
+                    <p>Computational Mathematics Quarterly, 18(1), 42-59</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv">
+        <div class="container">
+            <h2>Curriculum Vitae</h2>
+            <p>My complete academic and professional history is available in my CV.</p>
+            <a href="#" class="download-cv">Download CV (PDF)</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Email: jane.smith@university.edu</p>
+            <p>Office: Mathematics Building, Room 302</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>
+                <a href="https://scholar.google.com" target="_blank">Google Scholar</a> |
+                <a href="https://researchgate.net" target="_blank">ResearchGate</a> |
+                <a href="https://mathscinet.ams.org" target="_blank">MathSciNet</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #800020; color: white; text-align: center; padding: 20px 0; margin-top: 30px;">
+        <div class="container">
+            <p>&copy; 2025 Dr. Jane Smith. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for smooth scrolling -->
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetSection.offsetTop - 60,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
